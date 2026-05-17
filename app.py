@@ -5,7 +5,7 @@ from PIL import Image
 
 # Load trained model
 model = tf.keras.models.load_model(
-    "plant_disease_detection/saved_models/cnn_baseline_final.keras"
+   "plant_disease_detection/saved_models/cnn_baseline_final.keras"
 )
 
 # Class names

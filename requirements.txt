@@ -1,8 +1,6 @@
 streamlit
-tensorflow
-numpy
+tensorflow==2.16.1
+numpy<2
 pillow
-pandas
-matplotlib
-seaborn
-scikit-learn
+opencv-python-headless
+h5py

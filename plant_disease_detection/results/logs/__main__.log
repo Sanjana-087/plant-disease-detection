@@ -1,0 +1,29 @@
+2026-05-16 16:09:49 | INFO     | __main__ | Platform: Windows-10-10.0.26200-SP0
+2026-05-16 16:09:49 | INFO     | __main__ | Python: 3.11.9
+2026-05-16 16:09:49 | INFO     | __main__ | Project root: C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection
+2026-05-16 16:09:49 | INFO     | __main__ | TensorFlow: 2.21.0
+2026-05-16 16:09:49 | INFO     | __main__ | GPUs available: 0
+2026-05-16 16:09:49 | INFO     | __main__ | Starting training: model=cnn_baseline, dataset=C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantvillage
+2026-05-16 16:09:56 | ERROR    | __main__ | Training failed: TensorBoard is not installed, missing implementation for tf.summary.scalar
+Traceback (most recent call last):
+  File "C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\training\train.py", line 350, in main
+    train_model(
+  File "C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\training\train.py", line 215, in train_model
+    history = model.fit(
+              ^^^^^^^^^^
+  File "C:\Users\Sanjana V\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Sanjana V\AppData\Local\Python\pythoncore-3.11-64\Lib\site-packages\tensorflow\python\summary\tb_summary.py", line 298, in scalar
+    raise TBNotInstalledError("tf.summary.scalar") from exc
+tensorflow.python.summary.tb_summary.TBNotInstalledError: TensorBoard is not installed, missing implementation for tf.summary.scalar
+2026-05-16 16:18:20 | INFO     | __main__ | Platform: Windows-10-10.0.26200-SP0
+2026-05-16 16:18:20 | INFO     | __main__ | Python: 3.11.9
+2026-05-16 16:18:20 | INFO     | __main__ | Project root: C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection
+2026-05-16 16:18:20 | INFO     | __main__ | TensorFlow: 2.21.0
+2026-05-16 16:18:20 | INFO     | __main__ | GPUs available: 0
+2026-05-16 16:18:20 | INFO     | __main__ | Starting training: model=cnn_baseline, dataset=C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantvillage
+2026-05-16 16:18:28 | INFO     | __main__ | Training history saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\cnn_baseline_history.json
+2026-05-16 16:18:28 | INFO     | __main__ | Final model saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\saved_models\cnn_baseline_final.keras
+2026-05-16 16:34:08 | INFO     | __main__ | Loaded model from saved_models/cnn_baseline_final.keras
+2026-05-16 16:34:11 | INFO     | __main__ | Per-class metrics saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\cnn_baseline_metrics.csv
+2026-05-16 16:34:11 | INFO     | __main__ | Evaluation complete for 'cnn_baseline'

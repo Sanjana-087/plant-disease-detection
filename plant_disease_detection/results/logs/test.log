@@ -1,0 +1,5 @@
+2026-05-16 12:57:14 | INFO     | test | Logger OK
+2026-05-16 12:57:14 | INFO     | test | Platform: Windows-11-10.0.26200-SP0
+2026-05-16 12:57:14 | INFO     | test | Python: 3.14.5
+2026-05-16 12:57:14 | INFO     | test | Project root: C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection
+2026-05-16 12:57:14 | WARNING  | test | TensorFlow is not installed.

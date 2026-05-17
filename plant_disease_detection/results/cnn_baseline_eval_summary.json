@@ -1,0 +1,12 @@
+{
+  "model_path": "C:\\Users\\Sanjana V\\OneDrive\\Desktop\\plant-disease-project\\plant_disease_detection\\saved_models\\cnn_baseline_final.keras",
+  "dataset_path": "C:\\Users\\Sanjana V\\OneDrive\\Desktop\\plant-disease-project\\plant_disease_detection\\dataset\\plantvillage",
+  "accuracy": 0.0,
+  "precision_weighted": 0.0,
+  "recall_weighted": 0.0,
+  "f1_weighted": 0.0,
+  "f1_macro": 0.0,
+  "num_test_samples": 1,
+  "confusion_matrix_plot": "C:\\Users\\Sanjana V\\OneDrive\\Desktop\\plant-disease-project\\plant_disease_detection\\results\\cnn_baseline_confusion_matrix.png",
+  "metrics_csv": "C:\\Users\\Sanjana V\\OneDrive\\Desktop\\plant-disease-project\\plant_disease_detection\\results\\cnn_baseline_metrics.csv"
+}

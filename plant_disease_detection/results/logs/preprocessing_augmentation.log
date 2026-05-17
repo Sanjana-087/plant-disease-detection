@@ -1,0 +1,5 @@
+2026-05-16 16:09:49 | INFO     | preprocessing.augmentation | Built training augmentation: (248, 248) -> (224, 224) (rescale=True)
+2026-05-16 16:09:49 | INFO     | preprocessing.augmentation | Built validation augmentation: resize (224, 224), rescale=True
+2026-05-16 16:18:20 | INFO     | preprocessing.augmentation | Built training augmentation: (248, 248) -> (224, 224) (rescale=True)
+2026-05-16 16:18:20 | INFO     | preprocessing.augmentation | Built validation augmentation: resize (224, 224), rescale=True
+2026-05-16 16:34:08 | INFO     | preprocessing.augmentation | Built validation augmentation: resize (224, 224), rescale=True

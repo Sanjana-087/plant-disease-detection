@@ -1,0 +1,4 @@
+2026-05-16 16:09:50 | INFO     | models.model_factory | Creating model 'cnn_baseline' (classes=2, input_shape=(224, 224, 3))
+2026-05-16 16:09:50 | INFO     | models.model_factory | Model 'cnn_baseline' ready — total parameters: 524,002
+2026-05-16 16:18:21 | INFO     | models.model_factory | Creating model 'cnn_baseline' (classes=2, input_shape=(224, 224, 3))
+2026-05-16 16:18:21 | INFO     | models.model_factory | Model 'cnn_baseline' ready — total parameters: 524,002

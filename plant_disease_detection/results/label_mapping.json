@@ -1,0 +1,17 @@
+{
+  "class_names": [
+    "Apple___healthy",
+    "Tomato___Early_blight"
+  ],
+  "num_classes": 2,
+  "class_to_idx": {
+    "Apple___healthy": 0,
+    "Tomato___Early_blight": 1
+  },
+  "idx_to_class": {
+    "0": "Apple___healthy",
+    "1": "Tomato___Early_blight"
+  },
+  "dataset_root": "C:\\Users\\Sanjana V\\OneDrive\\Desktop\\plant-disease-project\\plant_disease_detection\\dataset\\plantvillage",
+  "random_seed": 42
+}

@@ -1,0 +1,52 @@
+2026-05-16 13:08:15 | INFO     | preprocessing.data_loader | PlantVillage layout: scanning C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantvillage\color
+2026-05-16 13:08:15 | INFO     | preprocessing.data_loader | Scan complete: 6 images, 2 classes under C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantvillage
+2026-05-16 13:08:15 | INFO     | preprocessing.data_loader | Label mapping saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\label_mapping.json
+2026-05-16 13:08:15 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-16 13:08:15 | INFO     | preprocessing.data_loader | CLASS DISTRIBUTION (6 images, 2 classes)
+2026-05-16 13:08:15 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-16 13:08:15 | INFO     | preprocessing.data_loader | Class                                         Count
+2026-05-16 13:08:15 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-16 13:08:15 | INFO     | preprocessing.data_loader | Apple___healthy                                   3 ( 50.0%)
+2026-05-16 13:08:15 | INFO     | preprocessing.data_loader | Tomato___Early_blight                             3 ( 50.0%)
+2026-05-16 13:08:15 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-16 13:08:15 | INFO     | preprocessing.data_loader | TOTAL                                             6
+2026-05-16 13:08:15 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-16 16:09:49 | INFO     | preprocessing.data_loader | PlantVillage layout: scanning C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantvillage\color
+2026-05-16 16:09:49 | INFO     | preprocessing.data_loader | Scan complete: 6 images, 2 classes under C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantvillage
+2026-05-16 16:09:49 | INFO     | preprocessing.data_loader | Label mapping saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\label_mapping.json
+2026-05-16 16:09:49 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-16 16:09:49 | INFO     | preprocessing.data_loader | CLASS DISTRIBUTION (6 images, 2 classes)
+2026-05-16 16:09:49 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-16 16:09:49 | INFO     | preprocessing.data_loader | Class                                         Count
+2026-05-16 16:09:49 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-16 16:09:49 | INFO     | preprocessing.data_loader | Apple___healthy                                   3 ( 50.0%)
+2026-05-16 16:09:49 | INFO     | preprocessing.data_loader | Tomato___Early_blight                             3 ( 50.0%)
+2026-05-16 16:09:49 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-16 16:09:49 | INFO     | preprocessing.data_loader | TOTAL                                             6
+2026-05-16 16:09:49 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-16 16:18:20 | INFO     | preprocessing.data_loader | PlantVillage layout: scanning C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantvillage\color
+2026-05-16 16:18:20 | INFO     | preprocessing.data_loader | Scan complete: 6 images, 2 classes under C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantvillage
+2026-05-16 16:18:20 | INFO     | preprocessing.data_loader | Label mapping saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\label_mapping.json
+2026-05-16 16:18:20 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-16 16:18:20 | INFO     | preprocessing.data_loader | CLASS DISTRIBUTION (6 images, 2 classes)
+2026-05-16 16:18:20 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-16 16:18:20 | INFO     | preprocessing.data_loader | Class                                         Count
+2026-05-16 16:18:20 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-16 16:18:20 | INFO     | preprocessing.data_loader | Apple___healthy                                   3 ( 50.0%)
+2026-05-16 16:18:20 | INFO     | preprocessing.data_loader | Tomato___Early_blight                             3 ( 50.0%)
+2026-05-16 16:18:20 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-16 16:18:20 | INFO     | preprocessing.data_loader | TOTAL                                             6
+2026-05-16 16:18:20 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-16 16:34:08 | INFO     | preprocessing.data_loader | PlantVillage layout: scanning C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantvillage\color
+2026-05-16 16:34:08 | INFO     | preprocessing.data_loader | Scan complete: 6 images, 2 classes under C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantvillage
+2026-05-16 16:34:08 | INFO     | preprocessing.data_loader | Label mapping saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\label_mapping.json
+2026-05-16 16:34:08 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-16 16:34:08 | INFO     | preprocessing.data_loader | CLASS DISTRIBUTION (6 images, 2 classes)
+2026-05-16 16:34:08 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-16 16:34:08 | INFO     | preprocessing.data_loader | Class                                         Count
+2026-05-16 16:34:08 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-16 16:34:08 | INFO     | preprocessing.data_loader | Apple___healthy                                   3 ( 50.0%)
+2026-05-16 16:34:08 | INFO     | preprocessing.data_loader | Tomato___Early_blight                             3 ( 50.0%)
+2026-05-16 16:34:08 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-16 16:34:08 | INFO     | preprocessing.data_loader | TOTAL                                             6
+2026-05-16 16:34:08 | INFO     | preprocessing.data_loader | ============================================================

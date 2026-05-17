@@ -1,0 +1,29 @@
+2026-05-16 16:09:49 | WARNING  | preprocessing.split_dataset | Stratified split failed (The least populated classes in y have only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2. Classes with too few members are: [0, 1]); using random split.
+2026-05-16 16:09:49 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-16 16:09:49 | INFO     | preprocessing.split_dataset | DATASET SPLIT SUMMARY
+2026-05-16 16:09:49 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-16 16:09:49 | INFO     | preprocessing.split_dataset | Train :      4  ( 66.7%)
+2026-05-16 16:09:49 | INFO     | preprocessing.split_dataset | Val   :      1  ( 16.7%)
+2026-05-16 16:09:49 | INFO     | preprocessing.split_dataset | Test  :      1  ( 16.7%)
+2026-05-16 16:09:49 | INFO     | preprocessing.split_dataset | Total :      6
+2026-05-16 16:09:49 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-16 16:09:50 | INFO     | preprocessing.split_dataset | Built tf.data datasets for model 'cnn_baseline' (batch_size=32, classes=2)
+2026-05-16 16:18:20 | WARNING  | preprocessing.split_dataset | Stratified split failed (The least populated classes in y have only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2. Classes with too few members are: [0, 1]); using random split.
+2026-05-16 16:18:20 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-16 16:18:20 | INFO     | preprocessing.split_dataset | DATASET SPLIT SUMMARY
+2026-05-16 16:18:20 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-16 16:18:20 | INFO     | preprocessing.split_dataset | Train :      4  ( 66.7%)
+2026-05-16 16:18:20 | INFO     | preprocessing.split_dataset | Val   :      1  ( 16.7%)
+2026-05-16 16:18:20 | INFO     | preprocessing.split_dataset | Test  :      1  ( 16.7%)
+2026-05-16 16:18:20 | INFO     | preprocessing.split_dataset | Total :      6
+2026-05-16 16:18:20 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-16 16:18:21 | INFO     | preprocessing.split_dataset | Built tf.data datasets for model 'cnn_baseline' (batch_size=32, classes=2)
+2026-05-16 16:34:08 | WARNING  | preprocessing.split_dataset | Stratified split failed (The least populated classes in y have only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2. Classes with too few members are: [0, 1]); using random split.
+2026-05-16 16:34:08 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-16 16:34:08 | INFO     | preprocessing.split_dataset | DATASET SPLIT SUMMARY
+2026-05-16 16:34:08 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-16 16:34:08 | INFO     | preprocessing.split_dataset | Train :      4  ( 66.7%)
+2026-05-16 16:34:08 | INFO     | preprocessing.split_dataset | Val   :      1  ( 16.7%)
+2026-05-16 16:34:08 | INFO     | preprocessing.split_dataset | Test  :      1  ( 16.7%)
+2026-05-16 16:34:08 | INFO     | preprocessing.split_dataset | Total :      6
+2026-05-16 16:34:08 | INFO     | preprocessing.split_dataset | ==================================================

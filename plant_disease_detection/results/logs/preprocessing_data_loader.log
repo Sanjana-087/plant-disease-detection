@@ -50,3 +50,59 @@
 2026-05-16 16:34:08 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
 2026-05-16 16:34:08 | INFO     | preprocessing.data_loader | TOTAL                                             6
 2026-05-16 16:34:08 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-18 16:14:32 | INFO     | preprocessing.data_loader | PlantVillage layout: scanning C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantvillage\color
+2026-05-18 16:15:07 | INFO     | preprocessing.data_loader | Scan complete: 20644 images, 17 classes under C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantvillage
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | Label mapping saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\label_mapping.json
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | CLASS DISTRIBUTION (20644 images, 17 classes)
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | Class                                         Count
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | Apple___healthy                                   3 (  0.0%)
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | Pepper__bell___Bacterial_spot                   997 (  4.8%)
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | Pepper__bell___healthy                         1478 (  7.2%)
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | Potato___Early_blight                          1000 (  4.8%)
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | Potato___Late_blight                           1000 (  4.8%)
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | Potato___healthy                                152 (  0.7%)
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | Tomato_Bacterial_spot                          2127 ( 10.3%)
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | Tomato_Early_blight                            1000 (  4.8%)
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | Tomato_Late_blight                             1909 (  9.2%)
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | Tomato_Leaf_Mold                                952 (  4.6%)
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | Tomato_Septoria_leaf_spot                      1771 (  8.6%)
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | Tomato_Spider_mites_Two_spotted_spider_mite       1676 (  8.1%)
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | Tomato__Target_Spot                            1404 (  6.8%)
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | Tomato__Tomato_YellowLeaf__Curl_Virus          3208 ( 15.5%)
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | Tomato__Tomato_mosaic_virus                     373 (  1.8%)
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | Tomato___Early_blight                             3 (  0.0%)
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | Tomato_healthy                                 1591 (  7.7%)
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | TOTAL                                         20644
+2026-05-18 16:15:08 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-18 19:46:07 | INFO     | preprocessing.data_loader | PlantVillage layout: scanning C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantvillage\color
+2026-05-18 19:47:24 | INFO     | preprocessing.data_loader | Scan complete: 20644 images, 17 classes under C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantvillage
+2026-05-18 19:47:24 | INFO     | preprocessing.data_loader | Label mapping saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\label_mapping.json
+2026-05-18 19:47:24 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-18 19:47:24 | INFO     | preprocessing.data_loader | CLASS DISTRIBUTION (20644 images, 17 classes)
+2026-05-18 19:47:24 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-18 19:47:24 | INFO     | preprocessing.data_loader | Class                                         Count
+2026-05-18 19:47:24 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-18 19:47:24 | INFO     | preprocessing.data_loader | Apple___healthy                                   3 (  0.0%)
+2026-05-18 19:47:24 | INFO     | preprocessing.data_loader | Pepper__bell___Bacterial_spot                   997 (  4.8%)
+2026-05-18 19:47:24 | INFO     | preprocessing.data_loader | Pepper__bell___healthy                         1478 (  7.2%)
+2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | Potato___Early_blight                          1000 (  4.8%)
+2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | Potato___Late_blight                           1000 (  4.8%)
+2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | Potato___healthy                                152 (  0.7%)
+2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | Tomato_Bacterial_spot                          2127 ( 10.3%)
+2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | Tomato_Early_blight                            1000 (  4.8%)
+2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | Tomato_Late_blight                             1909 (  9.2%)
+2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | Tomato_Leaf_Mold                                952 (  4.6%)
+2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | Tomato_Septoria_leaf_spot                      1771 (  8.6%)
+2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | Tomato_Spider_mites_Two_spotted_spider_mite       1676 (  8.1%)
+2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | Tomato__Target_Spot                            1404 (  6.8%)
+2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | Tomato__Tomato_YellowLeaf__Curl_Virus          3208 ( 15.5%)
+2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | Tomato__Tomato_mosaic_virus                     373 (  1.8%)
+2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | Tomato___Early_blight                             3 (  0.0%)
+2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | Tomato_healthy                                 1591 (  7.7%)
+2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | TOTAL                                         20644
+2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | ============================================================

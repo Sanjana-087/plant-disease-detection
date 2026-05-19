@@ -1,0 +1,149 @@
+# =============================================================================
+# Plant Disease Detection — Git ignore
+# =============================================================================
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ----- Virtual environments -----
+venv/
+.venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# ----- Jupyter / IPython -----
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+*.nbconvert.ipynb
+
+# ----- IDE & editors -----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ----- OS files -----
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ----- Secrets & credentials -----
+*.pem
+*.key
+credentials.json
+kaggle.json
+.secrets/
+secrets.toml
+
+# ----- Machine learning artifacts (large files) -----
+# Trained models — keep folder via .gitkeep, not the weights
+plant_disease_detection/saved_models/*
+!plant_disease_detection/saved_models/.gitkeep
+
+# Generated results (logs, plots, CSVs, TensorBoard)
+plant_disease_detection/results/*
+!plant_disease_detection/results/.gitkeep
+
+# Dataset images (download separately; see README)
+plant_disease_detection/dataset/**/*
+!plant_disease_detection/dataset/
+!plant_disease_detection/dataset/**/.gitkeep
+
+# Legacy / alternate paths
+saved_models/*
+!saved_models/.gitkeep
+results/*
+!results/.gitkeep
+dataset/**/*
+!dataset/
+!dataset/**/.gitkeep
+
+# Model & checkpoint formats
+*.keras
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.tflite
+*.weights
+checkpoints/
+
+# TensorBoard
+**/tensorboard/
+**/logs/
+*.tfevents.*
+
+# ----- Streamlit -----
+.streamlit/secrets.toml
+
+# ----- Testing / coverage -----
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# ----- Packaging -----
+*.manifest
+*.spec
+
+# ----- Logs & temp -----
+*.log
+*.tmp
+*.temp
+.cache/
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# ----- Compressed archives (often used for datasets) -----
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ----- OneDrive / sync conflicts -----
+*.lnk
+~$*

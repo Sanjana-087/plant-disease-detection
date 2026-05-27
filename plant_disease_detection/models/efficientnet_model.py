@@ -263,23 +263,41 @@ def unfreeze_efficientnet_top_layers(
     """
     base_model = None
     for layer in model.layers:
-        if isinstance(layer, keras.Model) and "efficientnet" in layer.name.lower():
+        if (isinstance(layer, keras.Model) or hasattr(layer, "layers")) and "efficientnet" in layer.name.lower():
             base_model = layer
             break
 
-    if base_model is None:
-        raise ValueError("Could not find EfficientNet base model in the given model.")
+    if base_model is not None:
+        base_model.trainable = True
+        total_layers = len(base_model.layers)
+        freeze_until = max(0, total_layers - n)
 
-    base_model.trainable = True
-    total_layers = len(base_model.layers)
-    freeze_until = max(0, total_layers - n)
+        for layer in base_model.layers[:freeze_until]:
+            layer.trainable = False
+        for layer in base_model.layers[freeze_until:]:
+            layer.trainable = True
+        logger.info("Unfroze top %d nested EfficientNet layers.", n)
+    else:
+        # Handle flattened model (common in Keras 3 / TF 2.16+)
+        backbone_layers = []
+        for layer in model.layers:
+            if layer.name == "global_avg_pool":
+                break
+            backbone_layers.append(layer)
 
-    for layer in base_model.layers[:freeze_until]:
-        layer.trainable = False
-    for layer in base_model.layers[freeze_until:]:
-        layer.trainable = True
+        if not backbone_layers:
+            raise ValueError("Could not find EfficientNet base layers inside the given model.")
 
-    logger.info("Unfroze top %d EfficientNet layers.", n)
+        model.trainable = True
+        total_layers = len(backbone_layers)
+        freeze_until = max(0, total_layers - n)
+
+        for layer in backbone_layers[:freeze_until]:
+            layer.trainable = False
+        for layer in backbone_layers[freeze_until:]:
+            layer.trainable = True
+        logger.info("Unfroze top %d flattened EfficientNet layers (total backbone=%d).", n, total_layers)
+
     return model
 
 

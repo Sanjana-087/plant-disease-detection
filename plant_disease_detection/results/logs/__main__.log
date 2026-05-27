@@ -63,3 +63,63 @@ Operation received an exception:Status: 1, message: could not create a memory ob
 2026-05-18 19:46:07 | INFO     | __main__ | Starting training: model=cnn_baseline, dataset=C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantvillage
 2026-05-18 22:11:46 | INFO     | __main__ | Training history saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\cnn_baseline_history.json
 2026-05-18 22:11:46 | INFO     | __main__ | Final model saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\saved_models\cnn_baseline_final.keras
+2026-05-19 20:20:16 | INFO     | __main__ | Platform: Windows-10-10.0.26200-SP0
+2026-05-19 20:20:16 | INFO     | __main__ | Python: 3.11.9
+2026-05-19 20:20:16 | INFO     | __main__ | Project root: C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection
+2026-05-19 20:20:16 | INFO     | __main__ | TensorFlow: 2.21.0
+2026-05-19 20:20:16 | INFO     | __main__ | GPUs available: 0
+2026-05-19 20:20:16 | INFO     | __main__ | Starting training: model=cnn_baseline, dataset=C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantdoc
+2026-05-19 20:20:16 | ERROR    | __main__ | Training failed: No valid images found under C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantdoc. Ensure each class is a subfolder containing .jpg/.png images.
+Traceback (most recent call last):
+  File "C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\training\train.py", line 350, in main
+    train_model(
+  File "C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\training\train.py", line 158, in train_model
+    image_paths, labels = loader.load()
+                          ^^^^^^^^^^^^^
+  File "C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\preprocessing\data_loader.py", line 514, in load
+    raw_paths, raw_labels = self.scan()
+                            ^^^^^^^^^^^
+  File "C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\preprocessing\data_loader.py", line 333, in scan
+    raise ValueError(
+ValueError: No valid images found under C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantdoc. Ensure each class is a subfolder containing .jpg/.png images.
+2026-05-19 20:47:31 | INFO     | __main__ | Platform: Windows-10-10.0.26200-SP0
+2026-05-19 20:47:31 | INFO     | __main__ | Python: 3.11.9
+2026-05-19 20:47:31 | INFO     | __main__ | Project root: C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection
+2026-05-19 20:47:31 | INFO     | __main__ | TensorFlow: 2.21.0
+2026-05-19 20:47:31 | INFO     | __main__ | GPUs available: 0
+2026-05-19 20:47:31 | INFO     | __main__ | Starting training: model=cnn_baseline, dataset=C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantdoc
+2026-05-19 20:56:36 | INFO     | __main__ | Training history saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\cnn_baseline_history.json
+2026-05-19 20:56:37 | INFO     | __main__ | Final model saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\saved_models\cnn_baseline_final.keras
+2026-05-19 21:09:56 | INFO     | __main__ | Platform: Windows-10-10.0.26200-SP0
+2026-05-19 21:09:56 | INFO     | __main__ | Python: 3.11.9
+2026-05-19 21:09:56 | INFO     | __main__ | Project root: C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection
+2026-05-19 21:09:56 | INFO     | __main__ | TensorFlow: 2.21.0
+2026-05-19 21:09:56 | INFO     | __main__ | GPUs available: 0
+2026-05-19 21:09:56 | INFO     | __main__ | Starting training: model=cnn_baseline, dataset=C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantdoc
+2026-05-19 21:51:44 | INFO     | __main__ | Training history saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\cnn_baseline_history.json
+2026-05-19 21:51:45 | INFO     | __main__ | Final model saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\saved_models\cnn_baseline_final.keras
+2026-05-20 21:44:50 | INFO     | __main__ | Platform: Windows-10-10.0.26200-SP0
+2026-05-20 21:44:50 | INFO     | __main__ | Python: 3.11.9
+2026-05-20 21:44:50 | INFO     | __main__ | Project root: C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection
+2026-05-20 21:44:50 | INFO     | __main__ | TensorFlow: 2.16.1
+2026-05-20 21:44:50 | INFO     | __main__ | GPUs available: 0
+2026-05-20 21:44:50 | INFO     | __main__ | Starting training: model=resnet50, dataset=C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantdoc
+2026-05-20 22:26:51 | ERROR    | __main__ | Training failed: Could not find ResNet50 base model inside the given model.
+Traceback (most recent call last):
+  File "C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\training\train.py", line 350, in main
+    train_model(
+  File "C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\training\train.py", line 194, in train_model
+    _unfreeze_model_for_phase2(model, canonical)
+  File "C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\training\train.py", line 97, in _unfreeze_model_for_phase2
+    unfreeze_resnet50_top_layers(model)
+  File "C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\models\resnet50_model.py", line 241, in unfreeze_resnet50_top_layers
+    raise ValueError("Could not find ResNet50 base model inside the given model.")
+ValueError: Could not find ResNet50 base model inside the given model.
+2026-05-20 22:29:08 | INFO     | __main__ | Platform: Windows-10-10.0.26200-SP0
+2026-05-20 22:29:08 | INFO     | __main__ | Python: 3.11.9
+2026-05-20 22:29:08 | INFO     | __main__ | Project root: C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection
+2026-05-20 22:29:08 | INFO     | __main__ | TensorFlow: 2.16.1
+2026-05-20 22:29:08 | INFO     | __main__ | GPUs available: 0
+2026-05-20 22:29:08 | INFO     | __main__ | Starting training: model=resnet50, dataset=C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantdoc
+2026-05-21 10:33:12 | INFO     | __main__ | Training history saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\resnet50_history.json
+2026-05-21 10:33:14 | INFO     | __main__ | Final model saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\saved_models\resnet50_final.keras

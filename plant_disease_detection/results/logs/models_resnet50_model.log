@@ -1,0 +1,7 @@
+2026-05-20 21:46:37 | INFO     | models.resnet50_model | ResNet50 compiled with Adam lr=0.0001
+2026-05-20 21:46:37 | INFO     | models.resnet50_model | Built ResNet50 model: classes=28, frozen base=True
+2026-05-20 22:28:17 | INFO     | models.resnet50_model | ResNet50 compiled with Adam lr=0.0001
+2026-05-20 22:28:17 | INFO     | models.resnet50_model | Built ResNet50 model: classes=28, frozen base=True
+2026-05-20 22:30:16 | INFO     | models.resnet50_model | ResNet50 compiled with Adam lr=0.0001
+2026-05-20 22:30:16 | INFO     | models.resnet50_model | Built ResNet50 model: classes=28, frozen base=True
+2026-05-20 23:04:06 | INFO     | models.resnet50_model | Unfroze top 30 flattened ResNet50 layers (total backbone=175).

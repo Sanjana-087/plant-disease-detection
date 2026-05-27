@@ -106,3 +106,161 @@
 2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
 2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | TOTAL                                         20644
 2026-05-18 19:47:25 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-19 20:20:16 | INFO     | preprocessing.data_loader | PlantDoc layout: scanning class folders under C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantdoc
+2026-05-19 20:20:16 | WARNING  | preprocessing.data_loader | No class-folder images under C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantdoc; trying recursive parent-label scan.
+2026-05-19 20:47:31 | INFO     | preprocessing.data_loader | PlantDoc layout: scanning splits test, train
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Scan complete: 2922 images, 28 classes under C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantdoc
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Label mapping saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\label_mapping.json
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | CLASS DISTRIBUTION (2922 images, 28 classes)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Class                                         Count
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Apple_Scab_Leaf                                  93 (  3.2%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Apple_leaf                                       88 (  3.0%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Apple_rust_leaf                                 106 (  3.6%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Bell_pepper_leaf                                 42 (  1.4%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Bell_pepper_leaf_spot                            83 (  2.8%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Blueberry_leaf                                  117 (  4.0%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Cherry_leaf                                      57 (  2.0%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Corn_Gray_leaf_spot                              67 (  2.3%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Corn_leaf_blight                                194 (  6.6%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Corn_rust_leaf                                  117 (  4.0%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Peach_leaf                                      112 (  3.8%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Potato_leaf_early_blight                        171 (  5.9%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Potato_leaf_late_blight                         208 (  7.1%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Raspberry_leaf                                  119 (  4.1%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Soyabean_leaf                                    65 (  2.2%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Squash_Powdery_mildew_leaf                      130 (  4.4%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Strawberry_leaf                                  96 (  3.3%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Tomato_Early_blight_leaf                         88 (  3.0%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Tomato_Septoria_leaf_spot                       157 (  5.4%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Tomato_leaf                                      52 (  1.8%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Tomato_leaf_bacterial_spot                      110 (  3.8%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Tomato_leaf_late_blight                         111 (  3.8%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Tomato_leaf_mosaic_virus                         54 (  1.8%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Tomato_leaf_yellow_virus                        238 (  8.1%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Tomato_mold_leaf                                 91 (  3.1%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | Tomato_two_spotted_spider_mites_leaf              2 (  0.1%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | grape_leaf                                       75 (  2.6%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | grape_leaf_black_rot                             79 (  2.7%)
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | TOTAL                                          2922
+2026-05-19 20:48:43 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-19 21:09:56 | INFO     | preprocessing.data_loader | PlantDoc layout: scanning splits train, test
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Scan complete: 2922 images, 28 classes under C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantdoc
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Label mapping saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\label_mapping.json
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | CLASS DISTRIBUTION (2922 images, 28 classes)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Class                                         Count
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Apple_Scab_Leaf                                  93 (  3.2%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Apple_leaf                                       88 (  3.0%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Apple_rust_leaf                                 106 (  3.6%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Bell_pepper_leaf                                 42 (  1.4%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Bell_pepper_leaf_spot                            83 (  2.8%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Blueberry_leaf                                  117 (  4.0%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Cherry_leaf                                      57 (  2.0%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Corn_Gray_leaf_spot                              67 (  2.3%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Corn_leaf_blight                                194 (  6.6%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Corn_rust_leaf                                  117 (  4.0%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Peach_leaf                                      112 (  3.8%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Potato_leaf_early_blight                        171 (  5.9%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Potato_leaf_late_blight                         208 (  7.1%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Raspberry_leaf                                  119 (  4.1%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Soyabean_leaf                                    65 (  2.2%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Squash_Powdery_mildew_leaf                      130 (  4.4%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Strawberry_leaf                                  96 (  3.3%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Tomato_Early_blight_leaf                         88 (  3.0%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Tomato_Septoria_leaf_spot                       157 (  5.4%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Tomato_leaf                                      52 (  1.8%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Tomato_leaf_bacterial_spot                      110 (  3.8%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Tomato_leaf_late_blight                         111 (  3.8%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Tomato_leaf_mosaic_virus                         54 (  1.8%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Tomato_leaf_yellow_virus                        238 (  8.1%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Tomato_mold_leaf                                 91 (  3.1%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | Tomato_two_spotted_spider_mites_leaf              2 (  0.1%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | grape_leaf                                       75 (  2.6%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | grape_leaf_black_rot                             79 (  2.7%)
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | TOTAL                                          2922
+2026-05-19 21:10:30 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-20 21:44:50 | INFO     | preprocessing.data_loader | PlantDoc layout: scanning splits train, test
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Scan complete: 2922 images, 28 classes under C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantdoc
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Label mapping saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\label_mapping.json
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | CLASS DISTRIBUTION (2922 images, 28 classes)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Class                                         Count
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Apple_Scab_Leaf                                  93 (  3.2%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Apple_leaf                                       88 (  3.0%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Apple_rust_leaf                                 106 (  3.6%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Bell_pepper_leaf                                 42 (  1.4%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Bell_pepper_leaf_spot                            83 (  2.8%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Blueberry_leaf                                  117 (  4.0%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Cherry_leaf                                      57 (  2.0%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Corn_Gray_leaf_spot                              67 (  2.3%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Corn_leaf_blight                                194 (  6.6%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Corn_rust_leaf                                  117 (  4.0%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Peach_leaf                                      112 (  3.8%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Potato_leaf_early_blight                        171 (  5.9%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Potato_leaf_late_blight                         208 (  7.1%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Raspberry_leaf                                  119 (  4.1%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Soyabean_leaf                                    65 (  2.2%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Squash_Powdery_mildew_leaf                      130 (  4.4%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Strawberry_leaf                                  96 (  3.3%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Tomato_Early_blight_leaf                         88 (  3.0%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Tomato_Septoria_leaf_spot                       157 (  5.4%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Tomato_leaf                                      52 (  1.8%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Tomato_leaf_bacterial_spot                      110 (  3.8%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Tomato_leaf_late_blight                         111 (  3.8%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Tomato_leaf_mosaic_virus                         54 (  1.8%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Tomato_leaf_yellow_virus                        238 (  8.1%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Tomato_mold_leaf                                 91 (  3.1%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | Tomato_two_spotted_spider_mites_leaf              2 (  0.1%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | grape_leaf                                       75 (  2.6%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | grape_leaf_black_rot                             79 (  2.7%)
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | TOTAL                                          2922
+2026-05-20 21:46:05 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-20 22:29:08 | INFO     | preprocessing.data_loader | PlantDoc layout: scanning splits test, train
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Scan complete: 2922 images, 28 classes under C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\dataset\plantdoc
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Label mapping saved to C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\label_mapping.json
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | CLASS DISTRIBUTION (2922 images, 28 classes)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | ============================================================
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Class                                         Count
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Apple_Scab_Leaf                                  93 (  3.2%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Apple_leaf                                       88 (  3.0%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Apple_rust_leaf                                 106 (  3.6%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Bell_pepper_leaf                                 42 (  1.4%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Bell_pepper_leaf_spot                            83 (  2.8%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Blueberry_leaf                                  117 (  4.0%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Cherry_leaf                                      57 (  2.0%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Corn_Gray_leaf_spot                              67 (  2.3%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Corn_leaf_blight                                194 (  6.6%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Corn_rust_leaf                                  117 (  4.0%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Peach_leaf                                      112 (  3.8%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Potato_leaf_early_blight                        171 (  5.9%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Potato_leaf_late_blight                         208 (  7.1%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Raspberry_leaf                                  119 (  4.1%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Soyabean_leaf                                    65 (  2.2%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Squash_Powdery_mildew_leaf                      130 (  4.4%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Strawberry_leaf                                  96 (  3.3%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Tomato_Early_blight_leaf                         88 (  3.0%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Tomato_Septoria_leaf_spot                       157 (  5.4%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Tomato_leaf                                      52 (  1.8%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Tomato_leaf_bacterial_spot                      110 (  3.8%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Tomato_leaf_late_blight                         111 (  3.8%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Tomato_leaf_mosaic_virus                         54 (  1.8%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Tomato_leaf_yellow_virus                        238 (  8.1%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Tomato_mold_leaf                                 91 (  3.1%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | Tomato_two_spotted_spider_mites_leaf              2 (  0.1%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | grape_leaf                                       75 (  2.6%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | grape_leaf_black_rot                             79 (  2.7%)
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | ------------------------------------------------------------
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | TOTAL                                          2922
+2026-05-20 22:30:14 | INFO     | preprocessing.data_loader | ============================================================

@@ -7,3 +7,11 @@
 2026-05-18 16:15:08 | INFO     | preprocessing.augmentation | Built validation augmentation: resize (224, 224), rescale=True
 2026-05-18 19:47:25 | INFO     | preprocessing.augmentation | Built training augmentation: (248, 248) -> (224, 224) (rescale=True)
 2026-05-18 19:47:25 | INFO     | preprocessing.augmentation | Built validation augmentation: resize (224, 224), rescale=True
+2026-05-19 20:48:43 | INFO     | preprocessing.augmentation | Built training augmentation: (248, 248) -> (224, 224) (rescale=True)
+2026-05-19 20:48:43 | INFO     | preprocessing.augmentation | Built validation augmentation: resize (224, 224), rescale=True
+2026-05-19 21:10:30 | INFO     | preprocessing.augmentation | Built training augmentation: (248, 248) -> (224, 224) (rescale=True)
+2026-05-19 21:10:30 | INFO     | preprocessing.augmentation | Built validation augmentation: resize (224, 224), rescale=True
+2026-05-20 21:46:05 | INFO     | preprocessing.augmentation | Built training augmentation: (248, 248) -> (224, 224) (rescale=False)
+2026-05-20 21:46:05 | INFO     | preprocessing.augmentation | Built validation augmentation: resize (224, 224), rescale=False
+2026-05-20 22:30:14 | INFO     | preprocessing.augmentation | Built training augmentation: (248, 248) -> (224, 224) (rescale=False)
+2026-05-20 22:30:14 | INFO     | preprocessing.augmentation | Built validation augmentation: resize (224, 224), rescale=False

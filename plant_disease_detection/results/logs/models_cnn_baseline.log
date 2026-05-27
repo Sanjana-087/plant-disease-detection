@@ -2,3 +2,5 @@
 2026-05-16 16:18:21 | INFO     | models.cnn_baseline | Compiled cnn_baseline: classes=2, input=(224, 224, 3), lr=0.0001
 2026-05-18 16:15:09 | INFO     | models.cnn_baseline | Compiled cnn_baseline: classes=17, input=(224, 224, 3), lr=0.0001
 2026-05-18 19:47:26 | INFO     | models.cnn_baseline | Compiled cnn_baseline: classes=17, input=(224, 224, 3), lr=0.0001
+2026-05-19 20:48:44 | INFO     | models.cnn_baseline | Compiled cnn_baseline: classes=28, input=(224, 224, 3), lr=0.0001
+2026-05-19 21:10:31 | INFO     | models.cnn_baseline | Compiled cnn_baseline: classes=28, input=(224, 224, 3), lr=0.0001

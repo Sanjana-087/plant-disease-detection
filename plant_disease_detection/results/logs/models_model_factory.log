@@ -6,3 +6,11 @@
 2026-05-18 16:15:09 | INFO     | models.model_factory | Model 'cnn_baseline' ready — total parameters: 531,697
 2026-05-18 19:47:26 | INFO     | models.model_factory | Creating model 'cnn_baseline' (classes=17, input_shape=(224, 224, 3))
 2026-05-18 19:47:26 | INFO     | models.model_factory | Model 'cnn_baseline' ready — total parameters: 531,697
+2026-05-19 20:48:43 | INFO     | models.model_factory | Creating model 'cnn_baseline' (classes=28, input_shape=(224, 224, 3))
+2026-05-19 20:48:44 | INFO     | models.model_factory | Model 'cnn_baseline' ready — total parameters: 537,340
+2026-05-19 21:10:31 | INFO     | models.model_factory | Creating model 'cnn_baseline' (classes=28, input_shape=(224, 224, 3))
+2026-05-19 21:10:31 | INFO     | models.model_factory | Model 'cnn_baseline' ready — total parameters: 537,340
+2026-05-20 21:46:06 | INFO     | models.model_factory | Creating model 'resnet50' (classes=28, input_shape=(224, 224, 3))
+2026-05-20 21:46:37 | INFO     | models.model_factory | Model 'resnet50' ready — total parameters: 24,653,212
+2026-05-20 22:30:14 | INFO     | models.model_factory | Creating model 'resnet50' (classes=28, input_shape=(224, 224, 3))
+2026-05-20 22:30:16 | INFO     | models.model_factory | Model 'resnet50' ready — total parameters: 24,653,212

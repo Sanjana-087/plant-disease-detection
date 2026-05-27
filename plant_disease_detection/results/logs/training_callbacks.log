@@ -14,3 +14,23 @@
 2026-05-18 19:47:26 | INFO     | training.callbacks |   Checkpoint : C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\saved_models\cnn_baseline_best.keras
 2026-05-18 19:47:26 | INFO     | training.callbacks |   CSV log    : C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\cnn_baseline_training_log.csv
 2026-05-18 19:47:26 | INFO     | training.callbacks |   TensorBoard: C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\tensorboard\cnn_baseline
+2026-05-19 20:48:44 | INFO     | training.callbacks | Callbacks for 'cnn_baseline':
+2026-05-19 20:48:44 | INFO     | training.callbacks |   Checkpoint : C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\saved_models\cnn_baseline_best.keras
+2026-05-19 20:48:44 | INFO     | training.callbacks |   CSV log    : C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\cnn_baseline_training_log.csv
+2026-05-19 20:48:44 | INFO     | training.callbacks |   TensorBoard: C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\tensorboard\cnn_baseline
+2026-05-19 21:10:31 | INFO     | training.callbacks | Callbacks for 'cnn_baseline':
+2026-05-19 21:10:31 | INFO     | training.callbacks |   Checkpoint : C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\saved_models\cnn_baseline_best.keras
+2026-05-19 21:10:31 | INFO     | training.callbacks |   CSV log    : C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\cnn_baseline_training_log.csv
+2026-05-19 21:10:31 | INFO     | training.callbacks |   TensorBoard: C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\tensorboard\cnn_baseline
+2026-05-20 21:46:37 | INFO     | training.callbacks | Callbacks for 'resnet50_phase1':
+2026-05-20 21:46:37 | INFO     | training.callbacks |   Checkpoint : C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\saved_models\resnet50_phase1_best.keras
+2026-05-20 21:46:37 | INFO     | training.callbacks |   CSV log    : C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\resnet50_phase1_training_log.csv
+2026-05-20 21:46:37 | INFO     | training.callbacks |   TensorBoard: C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\tensorboard\resnet50_phase1
+2026-05-20 22:30:16 | INFO     | training.callbacks | Callbacks for 'resnet50_phase1':
+2026-05-20 22:30:16 | INFO     | training.callbacks |   Checkpoint : C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\saved_models\resnet50_phase1_best.keras
+2026-05-20 22:30:16 | INFO     | training.callbacks |   CSV log    : C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\resnet50_phase1_training_log.csv
+2026-05-20 22:30:16 | INFO     | training.callbacks |   TensorBoard: C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\tensorboard\resnet50_phase1
+2026-05-20 23:04:06 | INFO     | training.callbacks | Callbacks for 'resnet50_phase2':
+2026-05-20 23:04:06 | INFO     | training.callbacks |   Checkpoint : C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\saved_models\resnet50_phase2_best.keras
+2026-05-20 23:04:06 | INFO     | training.callbacks |   CSV log    : C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\resnet50_phase2_training_log.csv
+2026-05-20 23:04:06 | INFO     | training.callbacks |   TensorBoard: C:\Users\Sanjana V\OneDrive\Desktop\plant-disease-project\plant_disease_detection\results\tensorboard\resnet50_phase2

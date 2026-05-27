@@ -47,3 +47,43 @@
 2026-05-18 19:47:25 | INFO     | preprocessing.split_dataset | Total :  20644
 2026-05-18 19:47:25 | INFO     | preprocessing.split_dataset | ==================================================
 2026-05-18 19:47:26 | INFO     | preprocessing.split_dataset | Built tf.data datasets for model 'cnn_baseline' (batch_size=32, classes=17)
+2026-05-19 20:48:43 | WARNING  | preprocessing.split_dataset | Stratified split failed (The least populated classes in y have only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2. Classes with too few members are: [25]); using random split.
+2026-05-19 20:48:43 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-19 20:48:43 | INFO     | preprocessing.split_dataset | DATASET SPLIT SUMMARY
+2026-05-19 20:48:43 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-19 20:48:43 | INFO     | preprocessing.split_dataset | Train :   2045  ( 70.0%)
+2026-05-19 20:48:43 | INFO     | preprocessing.split_dataset | Val   :    438  ( 15.0%)
+2026-05-19 20:48:43 | INFO     | preprocessing.split_dataset | Test  :    439  ( 15.0%)
+2026-05-19 20:48:43 | INFO     | preprocessing.split_dataset | Total :   2922
+2026-05-19 20:48:43 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-19 20:48:43 | INFO     | preprocessing.split_dataset | Built tf.data datasets for model 'cnn_baseline' (batch_size=32, classes=28)
+2026-05-19 21:10:30 | WARNING  | preprocessing.split_dataset | Stratified split failed (The least populated classes in y have only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2. Classes with too few members are: [25]); using random split.
+2026-05-19 21:10:30 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-19 21:10:30 | INFO     | preprocessing.split_dataset | DATASET SPLIT SUMMARY
+2026-05-19 21:10:30 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-19 21:10:30 | INFO     | preprocessing.split_dataset | Train :   2045  ( 70.0%)
+2026-05-19 21:10:30 | INFO     | preprocessing.split_dataset | Val   :    438  ( 15.0%)
+2026-05-19 21:10:30 | INFO     | preprocessing.split_dataset | Test  :    439  ( 15.0%)
+2026-05-19 21:10:30 | INFO     | preprocessing.split_dataset | Total :   2922
+2026-05-19 21:10:30 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-19 21:10:31 | INFO     | preprocessing.split_dataset | Built tf.data datasets for model 'cnn_baseline' (batch_size=32, classes=28)
+2026-05-20 21:46:05 | WARNING  | preprocessing.split_dataset | Stratified split failed (The least populated classes in y have only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2. Classes with too few members are: [25]); using random split.
+2026-05-20 21:46:05 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-20 21:46:05 | INFO     | preprocessing.split_dataset | DATASET SPLIT SUMMARY
+2026-05-20 21:46:05 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-20 21:46:05 | INFO     | preprocessing.split_dataset | Train :   2045  ( 70.0%)
+2026-05-20 21:46:05 | INFO     | preprocessing.split_dataset | Val   :    438  ( 15.0%)
+2026-05-20 21:46:05 | INFO     | preprocessing.split_dataset | Test  :    439  ( 15.0%)
+2026-05-20 21:46:05 | INFO     | preprocessing.split_dataset | Total :   2922
+2026-05-20 21:46:05 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-20 21:46:06 | INFO     | preprocessing.split_dataset | Built tf.data datasets for model 'resnet50' (batch_size=32, classes=28)
+2026-05-20 22:30:14 | WARNING  | preprocessing.split_dataset | Stratified split failed (The least populated classes in y have only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2. Classes with too few members are: [25]); using random split.
+2026-05-20 22:30:14 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-20 22:30:14 | INFO     | preprocessing.split_dataset | DATASET SPLIT SUMMARY
+2026-05-20 22:30:14 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-20 22:30:14 | INFO     | preprocessing.split_dataset | Train :   2045  ( 70.0%)
+2026-05-20 22:30:14 | INFO     | preprocessing.split_dataset | Val   :    438  ( 15.0%)
+2026-05-20 22:30:14 | INFO     | preprocessing.split_dataset | Test  :    439  ( 15.0%)
+2026-05-20 22:30:14 | INFO     | preprocessing.split_dataset | Total :   2922
+2026-05-20 22:30:14 | INFO     | preprocessing.split_dataset | ==================================================
+2026-05-20 22:30:14 | INFO     | preprocessing.split_dataset | Built tf.data datasets for model 'resnet50' (batch_size=32, classes=28)

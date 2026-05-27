@@ -11,15 +11,23 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+# Fix imports before other project modules: Streamlit adds app/ to sys.path,
+# which makes app/utils.py shadow the project utils/ package.
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+APP_DIR = Path(__file__).resolve().parent
+_root = str(PROJECT_ROOT)
+if sys.path[0] != _root:
+    if _root in sys.path:
+        sys.path.remove(_root)
+    sys.path.insert(0, _root)
+_app = str(APP_DIR)
+while _app in sys.path:
+    sys.path.remove(_app)
+
 import streamlit as st
 from PIL import Image
 
-# Ensure project root is on sys.path when run as script
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
-
-from app.utils import (
+from app.app_helpers import (
     format_class_name,
     get_disease_info,
     infer_model_type,
